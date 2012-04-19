@@ -9,3 +9,14 @@ C:\Users\spark\Documents\Visual Studio 2010\Projects\WindowsFormsClient\WindowsF
 C:\Users\spark\Documents\Visual Studio 2010\Projects\WindowsFormsClient\WindowsFormsClient\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\spark\Documents\Visual Studio 2010\Projects\WindowsFormsClient\WindowsFormsClient\obj\x86\Debug\WindowsFormsClient.dll
 C:\Users\spark\Documents\Visual Studio 2010\Projects\WindowsFormsClient\WindowsFormsClient\obj\x86\Debug\WindowsFormsClient.pdb
+C:\Users\spark\Documents\Visual Studio 2010\Projects\SmartBuilderClientLibrary\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe.config
+C:\Users\spark\Documents\Visual Studio 2010\Projects\SmartBuilderClientLibrary\WindowsFormsClient\obj\x86\Debug\WindowsFormsClient.pdb
+C:\Users\spark\Documents\Visual Studio 2010\Projects\SmartBuilderClientLibrary\WindowsFormsClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\spark\Documents\Visual Studio 2010\Projects\SmartBuilderClientLibrary\WindowsFormsClient\obj\x86\Debug\WindowsFormsClient.Form1.resources
+C:\Users\spark\Documents\Visual Studio 2010\Projects\SmartBuilderClientLibrary\WindowsFormsClient\obj\x86\Debug\WindowsFormsClient.Properties.Resources.resources
+C:\Users\spark\Documents\Visual Studio 2010\Projects\SmartBuilderClientLibrary\WindowsFormsClient\obj\x86\Debug\WindowsFormsClient.SearchResultForm.resources
+C:\Users\spark\Documents\Visual Studio 2010\Projects\SmartBuilderClientLibrary\WindowsFormsClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\spark\Documents\Visual Studio 2010\Projects\SmartBuilderClientLibrary\WindowsFormsClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\spark\Documents\Visual Studio 2010\Projects\SmartBuilderClientLibrary\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe
+C:\Users\spark\Documents\Visual Studio 2010\Projects\SmartBuilderClientLibrary\WindowsFormsClient\bin\Debug\WindowsFormsClient.pdb
+C:\Users\spark\Documents\Visual Studio 2010\Projects\SmartBuilderClientLibrary\WindowsFormsClient\obj\x86\Debug\WindowsFormsClient.exe

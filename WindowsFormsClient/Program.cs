@@ -11,7 +11,7 @@ namespace WindowsFormsClient
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void testfunc()
+        public static void Main()
         {
             //The system starts execution
             try

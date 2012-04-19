@@ -24,16 +24,19 @@ namespace WindowsFormsClient
         {
             this.response = res;
             this.textBox1.Text = response.Question;
-            for (int i = 1; i <= response.Solution.Length; i++)
+            if (res.Solution != null)
             {
-                if (i == 1 && (response.Solution[0]!= null))
-                    this.textBox2.Text = response.Solution[0].ToString();
-                if (i == 2 && (response.Solution[1] != null))
-                    this.textBox3.Text = response.Solution[1].ToString();
-                if (i == 3 && (response.Solution[2] != null))
-                    this.textBox4.Text = response.Solution[2].ToString();
+                for (int i = 1; i <= response.Solution.Length; i++)
+                {
+                    if (i == 1 && (response.Solution[0] != null))
+                        this.textBox2.Text = response.Solution[0].ToString();
+                    if (i == 2 && (response.Solution[1] != null))
+                        this.textBox3.Text = response.Solution[1].ToString();
+                    if (i == 3 && (response.Solution[2] != null))
+                        this.textBox4.Text = response.Solution[2].ToString();
+                }
+                this.label6.Text = response.Solution.Length.ToString();
             }
-            this.label6.Text = response.Solution.Length.ToString();
         }
         private void button3_Click(object sender, EventArgs e)
         {
