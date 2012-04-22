@@ -32,11 +32,23 @@
   <xs:element name="updateAnswer">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ErrorLoggingTest" minOccurs="0" name="response" nillable="true" type="q4:correctAnswer" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ErrorLoggingTest" minOccurs="0" name="response" nillable="true" type="q4:suggestAnswer" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="updateAnswerResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="voteAnswer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/ErrorLoggingTest" minOccurs="0" name="response" nillable="true" type="q5:suggestAnswer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="voteAnswerResponse">
     <xs:complexType>
       <xs:sequence />
     </xs:complexType>

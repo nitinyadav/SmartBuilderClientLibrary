@@ -65,7 +65,7 @@ namespace WindowsFormsClient
             robj.StackTrace = textBox8.Text;
             robj.OperatingSystem = textBox10.Text;
             robj.ErrorMessage = textBox1.Text;
-            robj.Tags = new string[] { "visual-studio", "c#" };
+            robj.Tags = "visual-studio,c#";
             robj.BugId = "";
         }
 

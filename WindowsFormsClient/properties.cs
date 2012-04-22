@@ -22,6 +22,7 @@ namespace WindowsFormsClient
         public static string group;
         public static string output;
         public static string projectTitle;
+        public static string vendor;
 
         //public properties()
         //{
@@ -72,6 +73,7 @@ namespace WindowsFormsClient
             userId = Environment.UserName;
             group = Environment.UserDomainName;
             output = Environment.CommandLine;
+            vendor = Environment.UserDomainName;
         }
 
         //public string ErrorMessage

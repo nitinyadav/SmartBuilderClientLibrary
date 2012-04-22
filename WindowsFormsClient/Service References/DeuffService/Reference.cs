@@ -197,7 +197,7 @@ namespace WindowsFormsClient.DeuffService {
         private string StackTraceField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string[] TagsField;
+        private string TagsField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string TokenField;
@@ -365,7 +365,7 @@ namespace WindowsFormsClient.DeuffService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public string[] Tags {
+        public string Tags {
             get {
                 return this.TagsField;
             }
@@ -566,9 +566,9 @@ namespace WindowsFormsClient.DeuffService {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="correctAnswer", Namespace="http://schemas.datacontract.org/2004/07/ErrorLoggingTest")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="suggestAnswer", Namespace="http://schemas.datacontract.org/2004/07/ErrorLoggingTest")]
     [System.SerializableAttribute()]
-    public partial class correctAnswer : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+    public partial class suggestAnswer : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
@@ -577,16 +577,28 @@ namespace WindowsFormsClient.DeuffService {
         private string AnswerField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int BugIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string ErrorMessageField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string FilenameField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string GuidField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string InfoField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string QuestionField;
+        private string NameSpaceField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string OsField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string SoftwareNameField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string StacktraceField;
@@ -596,6 +608,12 @@ namespace WindowsFormsClient.DeuffService {
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string UserIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string VendorField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string VersionField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private int VoteField;
@@ -619,6 +637,19 @@ namespace WindowsFormsClient.DeuffService {
                 if ((object.ReferenceEquals(this.AnswerField, value) != true)) {
                     this.AnswerField = value;
                     this.RaisePropertyChanged("Answer");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int BugId {
+            get {
+                return this.BugIdField;
+            }
+            set {
+                if ((this.BugIdField.Equals(value) != true)) {
+                    this.BugIdField = value;
+                    this.RaisePropertyChanged("BugId");
                 }
             }
         }
@@ -650,6 +681,19 @@ namespace WindowsFormsClient.DeuffService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Guid {
+            get {
+                return this.GuidField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.GuidField, value) != true)) {
+                    this.GuidField = value;
+                    this.RaisePropertyChanged("Guid");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public string Info {
             get {
                 return this.InfoField;
@@ -663,14 +707,40 @@ namespace WindowsFormsClient.DeuffService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Question {
+        public string NameSpace {
             get {
-                return this.QuestionField;
+                return this.NameSpaceField;
             }
             set {
-                if ((object.ReferenceEquals(this.QuestionField, value) != true)) {
-                    this.QuestionField = value;
-                    this.RaisePropertyChanged("Question");
+                if ((object.ReferenceEquals(this.NameSpaceField, value) != true)) {
+                    this.NameSpaceField = value;
+                    this.RaisePropertyChanged("NameSpace");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Os {
+            get {
+                return this.OsField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.OsField, value) != true)) {
+                    this.OsField = value;
+                    this.RaisePropertyChanged("Os");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string SoftwareName {
+            get {
+                return this.SoftwareNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.SoftwareNameField, value) != true)) {
+                    this.SoftwareNameField = value;
+                    this.RaisePropertyChanged("SoftwareName");
                 }
             }
         }
@@ -715,6 +785,32 @@ namespace WindowsFormsClient.DeuffService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Vendor {
+            get {
+                return this.VendorField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.VendorField, value) != true)) {
+                    this.VendorField = value;
+                    this.RaisePropertyChanged("Vendor");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Version {
+            get {
+                return this.VersionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.VersionField, value) != true)) {
+                    this.VersionField = value;
+                    this.RaisePropertyChanged("Version");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public int Vote {
             get {
                 return this.VoteField;
@@ -748,7 +844,10 @@ namespace WindowsFormsClient.DeuffService {
         WindowsFormsClient.DeuffService.responseInfo GetAnswer(WindowsFormsClient.DeuffService.bugData input);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/updateAnswer", ReplyAction="http://tempuri.org/IService1/updateAnswerResponse")]
-        void updateAnswer(WindowsFormsClient.DeuffService.correctAnswer response);
+        void updateAnswer(WindowsFormsClient.DeuffService.suggestAnswer response);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/voteAnswer", ReplyAction="http://tempuri.org/IService1/voteAnswerResponse")]
+        void voteAnswer(WindowsFormsClient.DeuffService.suggestAnswer response);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -786,8 +885,12 @@ namespace WindowsFormsClient.DeuffService {
             return base.Channel.GetAnswer(input);
         }
         
-        public void updateAnswer(WindowsFormsClient.DeuffService.correctAnswer response) {
+        public void updateAnswer(WindowsFormsClient.DeuffService.suggestAnswer response) {
             base.Channel.updateAnswer(response);
+        }
+        
+        public void voteAnswer(WindowsFormsClient.DeuffService.suggestAnswer response) {
+            base.Channel.voteAnswer(response);
         }
     }
 }
